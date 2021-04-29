@@ -47,4 +47,4 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 EXPOSE $PORT
 
 RUN ["chmod", "+x", "/app/entrypoint-prod.sh"]
-ENTRYPOINT ["/app/entrypoint-prod.sh"]
+ENTRYPOINT ["/app/entrypoint-prod.sh"] 
