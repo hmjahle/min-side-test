@@ -7,3 +7,7 @@ node_modules
 LICENSE
 README.md
 .vscode
+__pycache__
+*.pyc
+env/
+db.sqlite3
